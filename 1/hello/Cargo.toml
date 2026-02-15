@@ -1,0 +1,9 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+f = "0.1.2"
+nix = { version = "0.31.1", features = ["signal"] }
+system-pause = "0.1.2"
